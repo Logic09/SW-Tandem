@@ -29,5 +29,7 @@ eg: bsub –I –b –q queue_name –n 1 –cgsp 64 –share_size 4096 –host_
 #5.2 MPI Cluster
 Installation and Requirements
 We assume that readers are familiar with MPI to some extent and are able to run MPI programs. We recommend at least 8GB of memory for workflows involving standard tryptic digestions.
+
 Usage:
+
 eg: mpirun -np <number of processes> -f servers ./swtandemmpi input-path output-path<program arguments>  
